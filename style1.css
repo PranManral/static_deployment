@@ -1,0 +1,97 @@
+body {
+    margin: 0px , 20rem;
+    border: 1px;;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    margin-left:2rem;
+}
+
+ul{
+    display: flex;
+    width: 20rem;
+    justify-content: space-evenly;
+    
+}
+nav{
+    margin-right: 2rem;
+}
+
+
+
+.main-img{
+        width: 100%;
+        height: auto;
+}
+
+.parent{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+    
+}
+
+.child{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 30%;
+}
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    /*to remove underline in anchor*/
+}
+li {
+    list-style: none;
+    /*to remove dot in front of li elements*/
+    width: 60px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red
+}
+
+a:active {
+    color: red;
+}
+a {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+/* responsive */
+/* footer tag */
+footer {
+    /* vertically center */
+    height: 5rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    /* boldness */
+    font-weight: 500;
+    font-size: 1.5rem;
+    /* enforce uppercase */
+    text-transform: uppercase;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
